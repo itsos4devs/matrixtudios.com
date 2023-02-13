@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .clickButton {
+        @apply cursor-pointer transition duration-100 ease-out active:scale-95
+      }
+      .button {
+        @apply bg-[#234F7E] md:w-60 sm:w-44 w-28 mx-auto sm:py-3 py-1 md:text-base text-xs rounded-full text-white
+      }
+}
+.rc-time-picker-clear {
+  @apply hidden !important
+}
+.rc-time-picker-input {
+  @apply md:h-12 h-5 md:pl-4 w-full md:text-lg text-[7px]  text-[#234F7E] font-semibold rounded-lg cursor-pointer !important
+}
+
+img, video {
+  @apply h-full !important
+}
+
+.firebaseui-idp-text {
+  @apply md:text-[14px] text-[7px] !important
+}
+
+.firebaseui-idp-icon {
+  @apply md:w-[18px] w-[10px] !important
+}
+
+.firebaseui-idp-button, .firebaseui-tenant-button {
+  @apply md:min-h-[40px] min-h-0 !important
+}
+
+.firebaseui-title{
+  @apply md:text-[20px] text-[10px] !important
+}
+
+.firebaseui-card-header{
+  @apply md:pt-[16px] md:px-[24px] pt-[10px] px-[16px] md:mb-[16px] mb-[5px] md:h-[60px] h-[40px] !important
+}
+
+.firebaseui-input, .firebaseui-input-invalid {
+  @apply md:text-[16px] text-[10px] !important
+}
+
+.mdl-textfield--floating-label.is-invalid .mdl-textfield__label {
+  @apply md:text-[12px] text-[8px] !important
+}
+
+.firebaseui-button {
+  @apply  md:ml-[8px] md:min-w-[88px] ml-0 min-w-0 md:text-[14px] text-[10px] !important
+}
+
+.firebaseui-subtitle {
+  @apply md:text-[16px] text-[10px] !important
+}
+
+.firebaseui-text{
+  @apply md:text-[16px] text-[10px] !important
+}
+
+.firebaseui-error {
+  @apply md:text-[12px] text-[8px] !important
+}
