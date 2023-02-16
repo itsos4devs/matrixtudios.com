@@ -41,7 +41,7 @@ const Hero = () => {
         {/* Title */}
         <div className="flex flex-col items-center space-y-7">
           <h1 className="font-bold text-5xl text-[#181E25]">Matrixtudios</h1>
-          <p className="text-[#624DE3] text-2xl">
+          <p className="text-[#624DE3] text-2xl italic font-semibold">
             Elevating human conditions through tech edge solutions
           </p>
         </div>
